@@ -19,6 +19,7 @@ function Game() {
       id: crypto.randomUUID(), 
       guess: nextGuess 
     };
+    
     setGuesses([...guesses, nextGuessWithID]);
   }
 
